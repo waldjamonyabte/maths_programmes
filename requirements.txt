@@ -1,0 +1,20 @@
+# Dépendances pour les algorithmes mathématiques en Python
+# Installer avec: pip install -r requirements.txt
+
+# ====== MATHÉMATIQUES SYMBOLIQUES (essentiel) ======
+sympy>=1.12                    # Calcul symbolique: développement, factorisation, dérivation, intégration
+
+# ====== MATHÉMATIQUES NUMÉRIQUES ======
+numpy>=1.24                    # Matrices, tableaux, calculs numériques rapides
+scipy>=1.10                    # Algorithmes scientifiques (intégration, optimisation, stats)
+
+# ====== GRAPHIQUES ET VISUALISATION ======
+matplotlib>=3.7                # Tracer des courbes et graphiques
+plotly>=5.14                   # Graphiques interactifs (optionnel)
+
+# ====== ALGÈBRE LINÉAIRE ======
+# numpy et scipy incluent déjà cela
+
+# ====== AUTRES UTILES ======
+mpmath>=1.3                    # Arithmétique à précision arbitraire
+pillow>=9.5                    # Traitement d'images (optionnel)
